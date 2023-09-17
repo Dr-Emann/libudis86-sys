@@ -10,6 +10,5 @@ fn main() {
       "libudis86/syn.c",
       "libudis86/udis86.c"
     ])
-    .flag("-includestring.h")
     .compile("udis86");
 }
